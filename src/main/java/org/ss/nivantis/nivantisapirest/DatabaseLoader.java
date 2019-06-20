@@ -30,6 +30,6 @@ public abstract class DatabaseLoader implements CommandLineRunner {
 
     @Override
     public void run(String... strings) throws Exception {
-        this.pharmacieRepository.save(new Pharmacie("avenue de brocéliande", 3, 44300, 1, 1));
+        this.pharmacieRepository.save(new Pharmacie("avenue de brocéliande", 3, 44300, "1", "1"));
     }
 }
